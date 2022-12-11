@@ -63,6 +63,7 @@ def main():
         ('uc', 'use-context', ['c'], None),
         ('sc', 'set-context --current', ['c'], None),
         ('v', 'view', ['c'], None),
+        ('sa', 'serviceaccount', ['g', 'd', 'rm'], None),
         ]
     res_types = [r[0] for r in res]
 
